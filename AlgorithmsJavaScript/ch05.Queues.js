@@ -41,6 +41,14 @@ function Queue() {
     }
     return ret;
   }
+
+  function empty() {
+    if (this.dataStore.length === 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 
