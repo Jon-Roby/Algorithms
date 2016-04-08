@@ -74,6 +74,6 @@ function LList() {
 var cities = new LList();
 cities.insert("A", "head");
 cities.insert("B", "A");
-cities.insert("C", "B")
+cities.insert("C", "B");
 
 /******************************************************************************/
