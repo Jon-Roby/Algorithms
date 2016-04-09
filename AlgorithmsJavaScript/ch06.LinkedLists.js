@@ -50,7 +50,6 @@ function LList() {
   function display() {
     var currNode = this.head;
     while (!(currNode.next == null)) {
-      console.log(currNode.next.element);
       currNode = currNode.next;
     }
   }
